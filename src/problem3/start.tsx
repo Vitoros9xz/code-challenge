@@ -69,7 +69,7 @@ const WalletPage: React.FC<Props> = (props: Props) => {
           key={index}
           amount={balance.amount}
           usdValue={usdValue}
-          formattedAmount={balance.formatted}
+          formattedAmount={balance.formatted} 
         />
       );
     }
